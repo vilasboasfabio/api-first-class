@@ -1,0 +1,50 @@
+
+    .content{
+        width: 80%;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-gap: 10px;
+        margin: 0 auto;
+        background-color: #0e0e0e;
+        color: #fff
+        
+    }
+    .mainTitle{
+        font-size: 24px;
+        font-weight: 700;
+        margin-bottom: 16px;
+        text-align: center;
+        color: #fff;
+        background-color: #0e0e0e;
+        margin-bottom: 0%;
+        padding-top: 20px;
+    }
+    .main{
+        background-color: #0e0e0e;
+    }
+    .flag{
+        margin-left: 5%;
+    }
+    .translateButton{
+        background-color: #fff;
+        color: #0e0e0e;
+        border: none;
+        font-size: 16px;
+        font-weight: 700;
+        margin-bottom: 16px;
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 2%;
+        padding: 10px;
+        border-radius: 8px;
+        cursor: pointer;
+        margin-left: 46.5%;
+      
+    }
+    .translateButton:hover{
+        background-color: #0e0e0e;
+        color: #fff;
+        transition: all 0.3s ease;
+        border: 3px solid #fff;
+    }

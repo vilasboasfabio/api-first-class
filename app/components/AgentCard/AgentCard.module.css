@@ -1,0 +1,108 @@
+.abilityicon{
+    width: 40px;
+    height: 40px;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 1px solid #fff;
+    box-shadow: 0 0 0 1px #000;
+    transition: all 0.3s ease;
+    cursor: pointer;
+    margin: 0 auto;
+    display: block;
+    position: relative;
+    z-index: 1;
+    overflow: hidden;
+   background-color: #272727;
+    color:#fff;
+}
+/*colocar os card em pares */
+.agent{
+    display: flex;
+    flex-direction: column;
+    background-color: #ff4655;
+    width: 90%;
+    border-radius: 8px;
+    padding: 16px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 5%;
+    margin-top: 5%;
+    text-align: justify;
+
+}
+.agent:hover{
+    transform: scale(1.1);
+    transition: all 0.3s ease;
+    background-color: #fff !important;
+    color: #000 !important;
+}
+
+.title{
+    font-size: 24px;
+    font-weight: 700;
+    margin-bottom: 16px;
+    text-align: center;
+    color: #fff;
+}
+
+
+.titleSkills{
+    font-size: 24px;
+    font-weight: 700;
+    margin-bottom: 16px;
+    text-align: center;
+    color: #fff;
+}
+
+/*colocar os icones das habilidades em linha */
+.abilitys{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  margin-bottom: auto;
+  margin-top: auto;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    /*dar um gap nos elementos*/
+    gap: 10px;
+   
+}
+.agentPhoto{
+    width: 60%;
+    height: 60%;
+    object-fit: cover;
+    border-radius: 8px;
+    transition: all 0.3s ease;
+    cursor: pointer;
+    margin: 0 auto;
+    display: block;
+    position: relative;
+    z-index: 1;
+    overflow: hidden;
+   margin-bottom: 5%;
+}
+.abilityContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 20%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 5%;
+    margin-top: 5%;
+    text-align: center;
+    border-radius: 8px;
+    padding: 16px;
+    transition: all 0.3s ease;
+    cursor: pointer;
+    margin: 0 auto;
+    display: block;
+    position: relative;
+    z-index: 1;
+    overflow: hidden;
+    font-size: 12px;
+}
+
